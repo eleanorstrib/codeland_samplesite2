@@ -1,0 +1,130 @@
+/*
+Alabaster #E0F2E9
+Dark vanilla #CEB5A7
+Burnished brown #7D4F39
+Wintergreen dream #5B7B7A
+Celadon green #3C887E
+Cool purple #687287
+*/
+
+nav {
+	background-color: #5B7B7A;
+	font-family: 'Life Savers', serif;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #E0F2E9;
+}
+
+#connect p {
+	text-align: center;
+}
+
+.side-nav {
+	background-color: #687287;
+	opacity: 0.85;
+}
+.side-nav a {
+		color: #FFFFFF;
+		font-size: 1.25em;
+}
+
+.section-title {
+	font-family: 'Life Savers', sans-serif;
+	color: #E0F2E9;
+	text-align: center;
+}
+
+.secondary-title {
+	font-family: 'Life Savers', sans-serif;
+	color: #3C887E;
+}
+
+.parallax-container {
+  min-height: 200px;
+  line-height: 0;
+  height: auto;
+  width: 100%;
+  color: rgba(255,255,255,.9);
+}
+
+@media only screen and (max-width: 778px){
+.banner.parallax-container {
+	min-height: 500px;
+}
+}
+
+.parallax-img {
+    -webkit-filter: contrast(65%); /* Chrome, Safari, Opera */
+    filter:contrast(65%);
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+}
+
+.banner .section {
+    top: 10%;
+}
+
+@media only screen and (max-width : 992px) {
+  .banner .section {
+    top: 0;
+  }
+}
+
+.browser-default li {
+	list-style-position: inside;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+i.medium.material-icons.tools {
+	color: #5B7B7A;
+}
+
+.card {
+	margin: 20px 15px;
+}
+
+.tabs {
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+.tabs .tab a {
+	color: #3C887E;
+	font-family: 'Life Savers', Helvetica, sans-serif;
+	text-transform: lowercase;
+	font-size: 1.5em;
+}
+
+.tabs .tab a:hover {
+	color: #687287;
+}
+
+.tabs .indicator {
+	background-color: #3C887E;
+}
+
+.card#ios{
+	background-color: #3C887E;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+
